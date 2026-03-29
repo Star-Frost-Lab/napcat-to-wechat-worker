@@ -19,6 +19,8 @@
 ### ⚙️ 变量说明
 | 变量名 | 必填 | 说明 |
 | :--- | :--- | :--- |
-| `WECHAT_ROBOT_KEY` | 是 | 企业微信机器人 Webhook 地址中 `key=` 后面的部分。 |
-| `NOTIFY_TOKEN` | 是 | NapCat 配置页面填写的 Token，用于 HMAC-SHA1 签名校验。 |
-| `ALLOWED_IDS` | 否 | 允许转发的群号或 QQ 号，多个请用英文逗号 `,` 分隔。 |
+| `WECHAT_ROBOT_KEY` | 否 | 企业微信机器人 Webhook Key（不填则不转发）。 |
+| `TG_BOT_TOKEN` | 否 | Telegram Bot Token（不填则不转发）。 |
+| `TG_CHAT_ID` | 否 | 接收消息的 Telegram 用户 ID。 |
+| `NOTIFY_TOKEN` | 是 | NapCat 配置页面填写的 Token。 |
+| `ALLOWED_IDS` | 否 | 允许转发的群号或 QQ 号。 |
